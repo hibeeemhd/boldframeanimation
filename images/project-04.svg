@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#151515"/>
+<circle cx="900" cy="220" r="260" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+<circle cx="980" cy="690" r="180" fill="none" stroke="#2b2b2b" stroke-width="2"/>
+<text x="70" y="400" fill="#d7ff3f" font-family="Arial" font-size="30" font-weight="700" letter-spacing="7">VISUAL</text>
+<text x="70" y="455" fill="#f4f4f0" font-family="Arial" font-size="64" font-weight="800">IDENTITY</text>
+<text x="70" y="520" fill="#777" font-family="Arial" font-size="18" letter-spacing="4">BOLDFRAME ANIMATION</text>
+</svg>

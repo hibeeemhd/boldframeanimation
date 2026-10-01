@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | BoldFrame Animation</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar container">
+  <a class="logo" href="index.html">BOLDFRAME<span>.</span></a>
+  <button class="menu-btn" aria-label="Open menu">☰</button>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<main>
+<section class="page-hero">
+  <div class="container">
+    <p class="kicker">Portfolio</p>
+    <h1>Selected<br><em>work.</em></h1>
+    <p>Explore selected projects across branding, 3D, video, motion and digital design.</p>
+  </div>
+</section>
+
+<section class="section">
+<div class="container">
+
+  <div class="portfolio-filter-wrap">
+    <div class="filter-label">Explore by discipline</div>
+    <div class="filters main-filters" role="tablist" aria-label="Portfolio disciplines">
+      <button class="filter main-filter active" data-filter="all">All Work</button>
+      <button class="filter main-filter" data-filter="branding">Branding &amp; Design</button>
+      <button class="filter main-filter" data-filter="3d">3D</button>
+      <button class="filter main-filter" data-filter="video">Video &amp; Motion</button>
+    </div>
+
+    <div class="sub-filter-groups">
+      <div class="sub-filter-group active" data-parent="all">
+        <button class="sub-filter active" data-subfilter="all">All Projects</button>
+      </div>
+
+      <div class="sub-filter-group" data-parent="branding">
+        <button class="sub-filter" data-subfilter="brand-assets">Brand Assets</button>
+        <button class="sub-filter" data-subfilter="marketing-print">Marketing &amp; Print</button>
+        <button class="sub-filter" data-subfilter="digital-web">Digital &amp; Web Graphics</button>
+      </div>
+
+      <div class="sub-filter-group" data-parent="3d">
+        <button class="sub-filter" data-subfilter="3d-animation">Animation</button>
+        <button class="sub-filter" data-subfilter="3d-visualization">3D Visualization</button>
+        <button class="sub-filter" data-subfilter="3d-printing">3D Printing</button>
+        <button class="sub-filter" data-subfilter="character-design">Character Design</button>
+      </div>
+
+      <div class="sub-filter-group" data-parent="video">
+        <button class="sub-filter" data-subfilter="video-editing">Video Editing</button>
+        <button class="sub-filter" data-subfilter="motion-graphics">Motion Graphics</button>
+        <button class="sub-filter" data-subfilter="reels">Reels</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid portfolio-grid">
+
+    <article class="card portfolio-card" data-category="branding" data-subcategory="brand-assets">
+      <div class="card-media"><img src="images/project-01.svg" alt="Brand assets project"></div>
+      <div class="card-body"><h3>Brand Assets</h3><p>Branding &amp; Design / Brand Assets</p></div>
+    </article>
+
+    <article class="card portfolio-card" data-category="branding" data-subcategory="marketing-print">
+      <div class="card-media"><img src="images/project-02.svg" alt="Marketing and print project"></div>
+      <div class="card-body"><h3>Marketing &amp; Print</h3><p>Branding &amp; Design / Marketing &amp; Print</p></div>
+    </article>
+
+    <article class="card portfolio-card" data-category="branding" data-subcategory="digital-web">
+      <div class="card-media"><img src="images/project-03.svg" alt="Digital and web graphics project"></div>
+      <div class="card-body"><h3>Digital &amp; Web Graphics</h3><p>Branding &amp; Design / Digital &amp; Web Graphics</p></div>
+    </article>
+
+    <article class="card portfolio-card" data-category="3d" data-subcategory="3d-animation">
+      <div class="card-media"><img src="images/project-04.svg" alt="3D animation project"></div>
+      <div class="card-body"><h3>3D Animation</h3><p>3D / Animation</p></div>
+    </article>
+
+    <article class="card portfolio-card" data-category="3d" data-subcategory="3d-visualization">
+      <div class="card-media"><img src="images/project-05.svg" alt="3D visualization project"></div>
+      <div class="card-body"><h3>3D Visualization</h3><p>3D / 3D Visualization</p></div>
+    </article>
+
+    <article class="card portfolio-card" data-category="3d" data-subcategory="3d-printing">
+      <div class="card-media"><img src="images/project-06.svg" alt="3D printing project"></div>
+      <div class="card-body"><h3>3D Printing</h3><p>3D / 3D Printing</p></div>
+    </article>
+
+    <article class="card portfolio-card" data-category="3d" data-subcategory="character-design">
+      <div class="card-media"><img src="images/project-01.svg" alt="Character design project"></div>
+      <div class="card-body"><h3>Character Design</h3><p>3D / Character Design</p></div>
+    </article>
+
+    <article class="card portfolio-card" data-category="video" data-subcategory="video-editing">
+      <div class="card-media"><img src="images/project-02.svg" alt="Video editing project"></div>
+      <div class="card-body"><h3>Video Editing</h3><p>Video &amp; Motion / Video Editing</p></div>
+    </article>
+
+    <article class="card portfolio-card" data-category="video" data-subcategory="motion-graphics">
+      <div class="card-media"><img src="images/project-03.svg" alt="Motion graphics project"></div>
+      <div class="card-body"><h3>Motion Graphics</h3><p>Video &amp; Motion / Motion Graphics</p></div>
+    </article>
+
+    <article class="card portfolio-card" data-category="video" data-subcategory="reels">
+      <div class="card-media"><img src="images/project-04.svg" alt="Reels project"></div>
+      <div class="card-body"><h3>Reels</h3><p>Video &amp; Motion / Reels</p></div>
+    </article>
+
+  </div>
+</div>
+</section>
+</main>
+
+<footer class="footer container">
+  <div>© 2026 BoldFrame Animation. All rights reserved.</div>
+  <div>3D • Animation • Visual Design • Motion</div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
